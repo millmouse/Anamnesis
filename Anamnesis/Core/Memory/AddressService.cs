@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Anamnesis.Memory;
-using XivToolsWpf;
+using AetherToolsWpf.XivToolsWpf;
 
 #pragma warning disable SA1027, SA1025
 public class AddressService : ServiceBase<AddressService>

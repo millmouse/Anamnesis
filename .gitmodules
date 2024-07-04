@@ -1,3 +1,6 @@
-[submodule "Lib/XivToolsWpf"]
-	path = Lib/XivToolsWpf
-	url = https://github.com/XIV-Tools/XivToolsWpf
+# [submodule "Lib/XivToolsWpf"]
+# 	path = Lib/XivToolsWpf
+# 	url = https://github.com/XIV-Tools/XivToolsWpf
+[submodule "Lib/AetherToolsWpf"]
+	path = Lib/AetherToolsWpf
+	url = https://github.com/Aether-Tools/AetherToolsWpf.git

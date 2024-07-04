@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFramework>net6.0-windows</TargetFramework>
+		<TargetFramework>net7.0-windows</TargetFramework>
 		<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
 		<UseWPF>true</UseWPF>
 		<AppendTargetFramework>False</AppendTargetFramework>
@@ -79,6 +79,12 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\Lib\XivToolsWpf\XivToolsWpf.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="XivToolsWpf">
+	    <HintPath>..\Lib\AetherToolsWpf\bin\Debug\XivToolsWpf.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 	<ItemGroup>

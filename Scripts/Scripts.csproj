@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PlatformTarget>x64</PlatformTarget>
@@ -14,6 +14,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Anamnesis\Anamnesis.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Anamnesis">
+      <HintPath>..\Anamnesis\bin\win-x64\Anamnesis.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
